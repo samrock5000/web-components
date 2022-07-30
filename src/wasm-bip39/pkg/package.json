@@ -1,0 +1,15 @@
+{
+  "name": "wasm-bip39",
+  "collaborators": [
+    "samrock <samnev86@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_bip39_bg.wasm",
+    "wasm_bip39.js",
+    "wasm_bip39.d.ts"
+  ],
+  "module": "wasm_bip39.js",
+  "types": "wasm_bip39.d.ts",
+  "sideEffects": false
+}
