@@ -1,6 +1,6 @@
 <script lang="ts">
     const log = console.log
-    import init, { make_mnemonic } from "../../wasm-bip39/pkg/wasm_bip39.js";
+    import init, { make_mnemonic } from "../wasm-bip39/pkg/wasm_bip39.js";
     import Switch from './Switch.svelte'
     import { /*fade*/  fly } from 'svelte/transition';
 	let visible = true;
