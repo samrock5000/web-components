@@ -52,7 +52,7 @@
             const script = addressContentsToLockingBytecode({
                 payload: pubKeyHash,
                 // type: AddressType.p2pkh,
-                type: AddressType.p2sh,
+                type: AddressType.p2pkh,
             });
 
             const payload = Uint8Array.from([addrType, ...script]);

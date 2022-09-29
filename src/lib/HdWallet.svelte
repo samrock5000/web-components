@@ -39,9 +39,9 @@
   function toggle() {
     showPhrase = !showPhrase;
   }
-  function toggleName() {
-    switchWallet == "off" ? (walletName = "ecash") : (walletName = "lotus");
-  }
+  // function toggleName() {
+  //   switchWallet == "off" ? (walletName = "ecash") : (walletName = "lotus");
+  // }
 </script>
 
 <div>
